@@ -119,7 +119,6 @@
 										</div>
 									{elseif $node['sort'] == 11}
 										{displayNodeLinkV2 node=$node}
-										{$point_node=$node}
 									{/if}
 
 									{if $node['sort'] == 0 || $node['sort'] == 10}
@@ -248,7 +247,6 @@
 
 													{elseif $node['sort'] == 11}
 														{displayNodeLinkV2 node=$node}
-														{$point_node=$node}
 												    {/if}
 
                                                     {if $node['sort'] == 0 || $node['sort'] == 10}
